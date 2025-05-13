@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header a navigace -->
+    <header>
+        <div class="logo">
+            <h1>Lukáš Chalupa</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Domů</a></li>
+                <li><a href="#about">O mně</a></li>
+                <li><a href="#projects">Projekty</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <!-- Hero sekce -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h2>Vítejte v mém portfoliu</h2>
+            <p>Web developer | Designer | Student</p>
+            <a href="#projects" class="btn">Prohlédnout projekty</a>
+        </div>
+    </section>
+
+    <!-- O mně sekce -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">O mně</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Jsem student oboru Programování a vývoj aplikací se zájmem o webový design a tvorbu moderních aplikací.</p>
+                    <p>Mé dovednosti zahrnují HTML, CSS, JavaScript a další technologie, které používám k vytváření interaktivních a uživatelsky přívětivých webových stránek.</p>
+                    <h3>Technické dovednosti</h3>
+                    <div class="skills">
+                        <div class="skill">
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Responzivní design</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projekty sekce -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Mé projekty</h2>
+            <div class="projects-grid">
+                <!-- Projekt 1 -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Webová aplikace</h3>
+                        <p>Responzivní webová stránka vytvořená pomocí HTML, CSS a JavaScript.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://lukaschalupa1.github.io/PVA-24-25/?classId=050f482f-1a93-4427-8698-92d353dc9047&assignmentId=2adf7dd9-9224-4447-83e0-070fc9d4e8c9&submissionId=13fd3dcb-7e7a-df4e-41a7-706875e4aca8" class="btn-small">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projekt 2 -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Game Of Life</h3>
+                        <p>Interaktivní simulace buněčného automatu podle pravidel Johna Conwaye.
+                            Aplikace vizualizuje vývoj života na mřížce v reálném čase na základě jednoduchých pravidel, které vedou k překvapivě komplexnímu chování.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://lukaschalupa1.github.io/updated_game_of_life_v2/?classId=050f482f-1a93-4427-8698-92d353dc9047&assignmentId=6e801c48-62ce-4a78-b6c7-7fe006dea923&submissionId=ab053854-db6d-bb2f-9f29-992946d73109" class="btn-small">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projekt 3 -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Převodník Teplot</h3>
+                        <p>Jednoduchá webová aplikace pro převod mezi stupni Celsia, Fahrenheita a Kelvina.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://lukaschalupa1.github.io/prevodnik_teplot/?classId=050f482f-1a93-4427-8698-92d353dc9047&assignmentId=59cbfaa1-4563-4ad8-b697-6e62c3bf8b17&submissionId=376707c3-09fd-960c-ffa2-6006486d43e4" class="btn-small">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt sekce -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Kontaktujte mě</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>email@domena.cz</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+420 123 456 789</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Praha, Česká republika</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/lukaschalupa1" class="social-icon"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Jméno</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Zpráva</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Odeslat</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Lukáš Chalupa. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
